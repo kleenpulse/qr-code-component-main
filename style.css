@@ -1,0 +1,77 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-family: 'Outfit', sans-serif !important;
+}
+
+main {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 100vh;
+  background: #f0f3f5;
+}
+
+.content {
+  background: #D5E1EF;
+  width: 1440px;
+  padding: 6rem 0;
+  -webkit-box-shadow: 0 15px 60px rgba(0, 0, 0, 0.2);
+          box-shadow: 0 15px 60px rgba(0, 0, 0, 0.2);
+}
+
+.content .image {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  background: #fff;
+  width: 300px;
+  padding: 12px;
+  border-radius: 20px;
+  -webkit-box-shadow: 0 15px 60px rgba(0, 0, 0, 0.177);
+          box-shadow: 0 15px 60px rgba(0, 0, 0, 0.177);
+  margin: 0 auto;
+  text-align: center;
+}
+
+.content .image img {
+  width: 100%;
+  border-radius: 10px;
+  margin-bottom: 1.5rem;
+}
+
+.content .image .title {
+  padding: 0 1rem;
+  font-weight: 700;
+  margin-bottom: 1rem;
+  color: #02071dcc;
+  font-size: 1.3rem;
+}
+
+.content .image .paragraph {
+  padding: 0 .5rem;
+  margin: 0 10px;
+  font: 400 15px outfit;
+  color: #7c7d7ed9;
+  margin-bottom: 1.5rem;
+}
+/*# sourceMappingURL=style.css.map */
