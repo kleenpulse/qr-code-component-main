@@ -1,6 +1,8 @@
 * {
   padding: 0;
   margin: 0;
+  list-style: none;
+  text-decoration: none;
 }
 
 body {
@@ -17,8 +19,30 @@ main {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
   height: 100vh;
   background: #f0f3f5;
+}
+
+main .attribution {
+  position: absolute;
+  bottom: 0;
+  -webkit-transition: all 400ms;
+  transition: all 400ms;
+}
+
+main .attribution a {
+  color: #02071d;
+  font-weight: 700;
+  -webkit-transition: all 400ms;
+  transition: all 400ms;
+}
+
+main .attribution a:hover {
+  color: cyan;
 }
 
 .content {
